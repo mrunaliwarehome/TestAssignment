@@ -1,0 +1,32 @@
+Download git from below link:-
+
+https://git-scm.com/downloads
+
+To initialize a repo for git:-
+
+git init
+
+To add changes to staging area
+
+git add file1.txt
+
+To comit the changes to local repo
+
+git commit -m "created file and added line1 to it"
+
+At any point, if you want to check the status of changes:
+    
+    git status
+    
+    To compare chnages btwn working dir and local repo,
+    
+    git diff file1.txt
+    
+    to compare changes btwn staging area and local repo,
+    
+    git diff --cached file1.txt
+    
+    
+    To create a remote repo on github.com, you can create an account 
+    
+    https://github.com/
